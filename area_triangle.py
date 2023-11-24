@@ -5,7 +5,7 @@
 
 
 def calc_area(base, height):
-    area = base * height
+    area = round((base * height) / 2, 2)
     print(f"The area of the triangle is {area}cm².")
 
 
