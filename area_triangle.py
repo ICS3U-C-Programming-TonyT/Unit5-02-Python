@@ -18,7 +18,7 @@ def main():
     except ValueError:
         print(f"{user_base or user_height} is not a valid number.")
     else:
-        if user_base or user_height >= 0:
+        if user_base and user_height >= 0:
             calc_area(user_base, user_height)
         else:
             print(f"Base and height must be greater than 0.")
